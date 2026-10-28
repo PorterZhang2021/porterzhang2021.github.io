@@ -24,18 +24,18 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-outline.scss"
 ;
 
-// Personal portfolio overrides: quiet typography, flat surfaces, and compact rhythm.
+// Minimal monochrome portfolio theme: quiet typography, flat surfaces, compact rhythm.
 :root {
   --global-bg-color: #ffffff;
-  --global-text-color: #242825;
-  --global-text-color-light: #747b76;
-  --global-theme-color: #35645a;
-  --global-hover-color: #244c44;
-  --global-divider-color: #e6e9e6;
+  --global-text-color: #202020;
+  --global-text-color-light: #6b6b6b;
+  --global-theme-color: #202020;
+  --global-hover-color: #000000;
+  --global-divider-color: #e5e5e5;
   --global-card-bg-color: #ffffff;
   --global-footer-bg-color: #ffffff;
-  --global-footer-text-color: #747b76;
-  --global-footer-link-color: #35645a;
+  --global-footer-text-color: #6b6b6b;
+  --global-footer-link-color: #202020;
 }
 
 html {
@@ -62,7 +62,7 @@ body.sticky-bottom-footer {
   padding-top: 0.35rem;
   padding-bottom: 0.35rem;
   background: #ffffff;
-  border-bottom: 1px solid #e6e9e6;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .navbar .container {
@@ -78,12 +78,12 @@ body.sticky-bottom-footer {
 .navbar.navbar-light .navbar-nav .nav-item .nav-link {
   padding-right: 0.65rem;
   padding-left: 0.65rem;
-  color: #606762;
+  color: #6b6b6b;
   font-size: 0.88rem;
 }
 
 .navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
-  color: #35645a;
+  color: #202020;
   font-weight: 600;
 }
 
@@ -109,7 +109,7 @@ body.sticky-bottom-footer {
 .post-list h3 {
   font-family: "Source Serif 4", Georgia, serif;
   font-weight: 500;
-  color: #242825;
+  color: #202020;
 }
 
 .post .post-header .post-title {
@@ -120,7 +120,7 @@ body.sticky-bottom-footer {
 
 .post .post-header .desc {
   margin-top: 0.45rem;
-  color: #747b76;
+  color: #6b6b6b;
   font-size: 1rem;
 }
 
@@ -145,13 +145,18 @@ body.sticky-bottom-footer {
 .post a,
 .post a:hover,
 .post .post-title:hover {
-  color: #35645a;
+  color: #202020;
+}
+
+.post a {
+  text-decoration-color: #b5b5b5;
+  text-underline-offset: 0.16em;
 }
 
 .page-heading {
   margin-bottom: 1.6rem;
   padding-bottom: 1.1rem;
-  border-bottom: 1px solid #e6e9e6;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .page-heading h1 {
@@ -162,17 +167,17 @@ body.sticky-bottom-footer {
 
 .page-heading p {
   margin: 0.35rem 0 0;
-  color: #747b76;
+  color: #6b6b6b;
 }
 
 .header-bar {
   padding: 0 0 1.1rem;
   text-align: left;
-  border-bottom: 1px solid #e6e9e6;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .header-bar h1 {
-  color: #242825;
+  color: #202020;
   font-family: "Source Serif 4", Georgia, serif;
   font-size: 2rem;
   font-weight: 500;
@@ -180,7 +185,7 @@ body.sticky-bottom-footer {
 
 .header-bar h2 {
   margin: 0.3rem 0 0;
-  color: #747b76;
+  color: #6b6b6b;
   font-family: "DM Sans", sans-serif;
   font-size: 0.95rem;
   font-weight: 400;
@@ -209,7 +214,7 @@ body.sticky-bottom-footer {
 }
 
 .work-list {
-  border-top: 1px solid #e6e9e6;
+  border-top: 1px solid #e5e5e5;
 }
 
 .work-item {
@@ -217,12 +222,12 @@ body.sticky-bottom-footer {
   grid-template-columns: 3rem minmax(0, 1fr);
   gap: 0.75rem;
   padding: 1.5rem 0;
-  border-bottom: 1px solid #e6e9e6;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .work-item__index {
   margin: 0.28rem 0 0;
-  color: #8a918c;
+  color: #767676;
   font-size: 0.78rem;
   font-variant-numeric: tabular-nums;
 }
@@ -235,22 +240,22 @@ body.sticky-bottom-footer {
 
 .work-item p {
   margin: 0 0 0.45rem;
-  color: #5f6661;
+  color: #555555;
 }
 
 .work-item__divider {
   padding: 0 0.45rem;
-  color: #a3aaa5;
+  color: #999999;
 }
 
 .text-link {
-  color: #35645a;
+  color: #202020;
   font-size: 0.88rem;
   text-decoration: none;
 }
 
 .text-link:hover {
-  color: #244c44;
+  color: #000000;
   text-decoration: underline;
 }
 
@@ -268,20 +273,20 @@ body.sticky-bottom-footer {
 }
 
 .social .contact-icons a i::before {
-  color: #606762;
+  color: #6b6b6b;
 }
 
 .social .contact-note {
   margin-top: 0.35rem;
-  color: #747b76;
+  color: #6b6b6b;
   font-size: 0.78rem;
 }
 
 footer.sticky-bottom {
   margin-top: 3rem;
   padding: 1rem 0 1.5rem;
-  border-top: 1px solid #e6e9e6;
-  color: #747b76;
+  border-top: 1px solid #e5e5e5;
+  color: #6b6b6b;
   font-size: 0.76rem;
 }
 

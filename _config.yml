@@ -14,7 +14,7 @@ footer_text: >
   Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: Porter Zhang, backend engineer, distributed systems, message queues, Rust, Java
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚙️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: P # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://porterzhang2021.github.io # the base hostname & protocol for your site
 baseurl:
