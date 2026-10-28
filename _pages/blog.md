@@ -14,10 +14,10 @@ pagination:
 ---
 
 <div class="post">
-  <div class="header-bar">
+  <header class="page-heading">
     <h1>Notes</h1>
-    <h2>Engineering notes on systems, software, and learning</h2>
-  </div>
+    <p>Engineering notes on systems, software, and learning</p>
+  </header>
 
   {% assign postlist = paginator.posts | default: site.posts %}
   {% if postlist.size > 0 %}

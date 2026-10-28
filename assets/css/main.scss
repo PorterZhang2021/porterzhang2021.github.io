@@ -23,3 +23,289 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+// Personal portfolio overrides: quiet typography, flat surfaces, and compact rhythm.
+:root {
+  --global-bg-color: #ffffff;
+  --global-text-color: #242825;
+  --global-text-color-light: #747b76;
+  --global-theme-color: #35645a;
+  --global-hover-color: #244c44;
+  --global-divider-color: #e6e9e6;
+  --global-card-bg-color: #ffffff;
+  --global-footer-bg-color: #ffffff;
+  --global-footer-text-color: #747b76;
+  --global-footer-link-color: #35645a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  padding-bottom: 0;
+}
+
+body.sticky-bottom-footer {
+  padding-bottom: 0;
+}
+
+.container {
+  max-width: 780px;
+}
+
+.navbar {
+  min-height: 58px;
+  padding-top: 0.35rem;
+  padding-bottom: 0.35rem;
+  background: #ffffff;
+  border-bottom: 1px solid #e6e9e6;
+}
+
+.navbar .container {
+  max-width: 780px;
+}
+
+.navbar .navbar-brand {
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.98rem;
+  font-weight: 600 !important;
+}
+
+.navbar.navbar-light .navbar-nav .nav-item .nav-link {
+  padding-right: 0.65rem;
+  padding-left: 0.65rem;
+  color: #606762;
+  font-size: 0.88rem;
+}
+
+.navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
+  color: #35645a;
+  font-weight: 600;
+}
+
+.container[role="main"] {
+  margin-top: 3.5rem !important;
+  margin-bottom: 3rem;
+}
+
+.post {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.post .post-header {
+  margin-bottom: 1.6rem;
+}
+
+.post .post-title,
+.page-heading h1,
+.post h2,
+.post h3,
+.work-item h2,
+.post-list h3 {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-weight: 500;
+  color: #242825;
+}
+
+.post .post-header .post-title {
+  margin-bottom: 0.25rem;
+  font-size: 2.35rem;
+  line-height: 1.2;
+}
+
+.post .post-header .desc {
+  margin-top: 0.45rem;
+  color: #747b76;
+  font-size: 1rem;
+}
+
+.post h2 {
+  margin-top: 2.1rem;
+  margin-bottom: 0.7rem;
+  font-size: 1.45rem;
+}
+
+.post h3 {
+  font-size: 1.2rem;
+}
+
+.post p {
+  margin-bottom: 1rem;
+}
+
+.post ul {
+  padding-left: 1.2rem;
+}
+
+.post a,
+.post a:hover,
+.post .post-title:hover {
+  color: #35645a;
+}
+
+.page-heading {
+  margin-bottom: 1.6rem;
+  padding-bottom: 1.1rem;
+  border-bottom: 1px solid #e6e9e6;
+}
+
+.page-heading h1 {
+  margin: 0;
+  font-size: 2rem;
+  line-height: 1.25;
+}
+
+.page-heading p {
+  margin: 0.35rem 0 0;
+  color: #747b76;
+}
+
+.header-bar {
+  padding: 0 0 1.1rem;
+  text-align: left;
+  border-bottom: 1px solid #e6e9e6;
+}
+
+.header-bar h1 {
+  color: #242825;
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.header-bar h2 {
+  margin: 0.3rem 0 0;
+  color: #747b76;
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 400;
+}
+
+.post-list {
+  margin-bottom: 2rem;
+}
+
+.post-list li {
+  padding: 1.15rem 0;
+}
+
+.post-list li h3 {
+  margin: 0 0 0.3rem;
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+.post-list li p {
+  margin-bottom: 0.4rem;
+}
+
+.post-list li .post-meta {
+  font-size: 0.8rem;
+}
+
+.work-list {
+  border-top: 1px solid #e6e9e6;
+}
+
+.work-item {
+  display: grid;
+  grid-template-columns: 3rem minmax(0, 1fr);
+  gap: 0.75rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #e6e9e6;
+}
+
+.work-item__index {
+  margin: 0.28rem 0 0;
+  color: #8a918c;
+  font-size: 0.78rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.work-item h2 {
+  margin: 0 0 0.25rem;
+  font-size: 1.45rem;
+  line-height: 1.35;
+}
+
+.work-item p {
+  margin: 0 0 0.45rem;
+  color: #5f6661;
+}
+
+.work-item__divider {
+  padding: 0 0.45rem;
+  color: #a3aaa5;
+}
+
+.text-link {
+  color: #35645a;
+  font-size: 0.88rem;
+  text-decoration: none;
+}
+
+.text-link:hover {
+  color: #244c44;
+  text-decoration: underline;
+}
+
+.social {
+  margin-top: 2.1rem;
+  text-align: left;
+}
+
+.social .contact-icons {
+  font-size: 1.25rem;
+}
+
+.social .contact-icons a {
+  margin-right: 0.85rem;
+}
+
+.social .contact-icons a i::before {
+  color: #606762;
+}
+
+.social .contact-note {
+  margin-top: 0.35rem;
+  color: #747b76;
+  font-size: 0.78rem;
+}
+
+footer.sticky-bottom {
+  margin-top: 3rem;
+  padding: 1rem 0 1.5rem;
+  border-top: 1px solid #e6e9e6;
+  color: #747b76;
+  font-size: 0.76rem;
+}
+
+footer.sticky-bottom .container {
+  text-align: left;
+}
+
+.card,
+.card.hoverable {
+  box-shadow: none !important;
+}
+
+@media (max-width: 575.98px) {
+  .container[role="main"] {
+    margin-top: 2rem !important;
+  }
+
+  .post .post-header .post-title {
+    font-size: 2rem;
+  }
+
+  .work-item {
+    grid-template-columns: 2rem minmax(0, 1fr);
+    gap: 0.5rem;
+    padding: 1.2rem 0;
+  }
+}
