@@ -2,33 +2,34 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Backend engineer building dependable systems for data and AI.
 
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
+  scrollable: false
+  limit: 3
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+  scrollable: false
+  limit: 3
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a backend engineer based in Beijing, working on data platforms, distributed systems, and developer tools. I care about the engineering that makes software dependable: clear interfaces, predictable failure modes, and systems that remain understandable as they grow.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I currently work at **Nuist** and contribute to [RobustMQ](https://github.com/RobustMQ/robustmq), a high-performance, cloud-native message queue. I also build and study systems around Java, Rust, AI agents, and cloud-native infrastructure.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+## What I work on
+
+- **Messaging and data infrastructure**: protocols, storage, scheduling, observability, and operational tooling.
+- **Distributed systems**: reliable services with explicit contracts, useful diagnostics, and practical performance.
+- **Open source engineering**: turning experiments into documented, testable projects that other people can run.
+
+## Selected work
+
+My current projects are collected on the [work page](/projects/). The projects I return to most often are [RobustMQ](https://github.com/RobustMQ/robustmq), [OryxOS](https://github.com/oryx-labs/oryxos), and [mqtt-codec-rs](https://github.com/PorterZhang2021/mqtt-codec-rs).
+
+I use this site as a lightweight home for project context, technical notes, and links to the work that is easiest to lose in a repository list.
