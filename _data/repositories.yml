@@ -6,6 +6,3 @@ repo_description_lines_max: 2
 github_repos:
   - PorterZhang2021/robustmq
   - PorterZhang2021/oryxos
-  - PorterZhang2021/mqtt-codec-rs
-  - PorterZhang2021/supercv-backend
-  - PorterZhang2021/supercv-frontend

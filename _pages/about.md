@@ -13,7 +13,7 @@ announcements:
   limit: 3
 
 latest_posts:
-  enabled: false
+  enabled: true
   scrollable: false
   limit: 3
 ---
@@ -30,6 +30,6 @@ I graduated from **NUIST** and contribute to [RobustMQ](https://github.com/Robus
 
 ## Selected work
 
-My current projects are collected on the [work page](/projects/). The projects I return to most often are [RobustMQ](https://github.com/RobustMQ/robustmq), [OryxOS](https://github.com/oryx-labs/oryxos), and [mqtt-codec-rs](https://github.com/PorterZhang2021/mqtt-codec-rs).
+My current projects are collected on the [work page](/projects/): [RobustMQ](https://github.com/RobustMQ/robustmq) and [OryxOS](https://github.com/oryx-labs/oryxos).
 
 I use this site as a lightweight home for project context, technical notes, and links to the work that is easiest to lose in a repository list.
