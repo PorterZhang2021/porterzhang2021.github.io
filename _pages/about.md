@@ -20,7 +20,7 @@ latest_posts:
 
 I am a backend engineer based in Beijing, working on data platforms, distributed systems, and developer tools. I care about the engineering that makes software dependable: clear interfaces, predictable failure modes, and systems that remain understandable as they grow.
 
-I currently work at **Nuist** and contribute to [RobustMQ](https://github.com/RobustMQ/robustmq), a high-performance, cloud-native message queue. I also build and study systems around Java, Rust, AI agents, and cloud-native infrastructure.
+I graduated from **NUIST** and contribute to [RobustMQ](https://github.com/RobustMQ/robustmq), a high-performance, cloud-native message queue. I also build and study systems around Java, Rust, AI agents, and cloud-native infrastructure.
 
 ## What I work on
 
